@@ -4,7 +4,7 @@ async function init() {
         console.log("MetaMask not installed; using read-only defaults");
         provider = new ethers.InfuraProvider("sepolia");
         network = await provider.getNetwork();
-        contract = new ethers.Contract("0x454c9Aab766C128c81B792267523EBd107202af9", abi, provider);
+        contract = new ethers.Contract("0xBF3E26577bE5656202DEecBb98C4bE7F8786c407", abi, provider);
         console.log("selected provider: ", provider);
         console.log("network:", network);
         const divImg = document.getElementById("mainDiv");
@@ -30,7 +30,7 @@ async function init() {
         alert("O Metamask irá pedir aprovação para acessar essa página.\nPor favor, aceite.");
         signer = await provider.getSigner();
         network = await provider.getNetwork();
-        contract = new ethers.Contract("0x454c9Aab766C128c81B792267523EBd107202af9", abi, signer);
+        contract = new ethers.Contract("0xBF3E26577bE5656202DEecBb98C4bE7F8786c407", abi, signer);
         console.log("selected provider: ", provider);
         console.log("network:", network);
         console.log("signer: ", signer);
