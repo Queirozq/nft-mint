@@ -1,0 +1,14 @@
+{
+    "description": "Rafael Mago", 
+    "external_url": "https://i.gyazo.com/fe1b09e9c58b602eccd3c3c0ae3db76e.png", 
+    "image": "https://i.gyazo.com/fe1b09e9c58b602eccd3c3c0ae3db76e.png", 
+    "name": "Rafael Mago",
+    "attributes": [{
+        "trait_type": "Rafael", 
+        "value": "Sim"
+      }, 
+      {
+        "trait_type": "Mago", 
+        "value": "Sim"
+      }]
+  }

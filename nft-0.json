@@ -1,0 +1,14 @@
+{
+    "description": "Rafael Cachorro", 
+    "external_url": "https://i.gyazo.com/20c213a90e2cb2fd7627fc3fb80048fb.png", 
+    "image": "https://i.gyazo.com/20c213a90e2cb2fd7627fc3fb80048fb.png", 
+    "name": "Rafael Cachorro",
+    "attributes": [{
+        "trait_type": "Rafael", 
+        "value": "Sim"
+      }, 
+      {
+        "trait_type": "Cachorro", 
+        "value": "Sim"
+      }]
+  }
